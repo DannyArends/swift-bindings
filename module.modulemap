@@ -10,6 +10,7 @@ module CGLFW [system] {
 }
 
 module CGL [system] {
+    header "/usr/include/GL/glcorearb.h"
     header "/usr/include/GL/gl.h"
     header "/usr/include/GL/glext.h"
     header "/usr/include/GL/glu.h"
