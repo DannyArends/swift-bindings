@@ -1,0 +1,21 @@
+module CGLFW [system] {
+    header "/usr/local/include/GLFW/glfw3.h"
+    link "glfw3"
+    link "X11"
+    link "Xxf86vm"
+    link "Xrandr"
+    link "pthread"
+    link "Xi"
+    export *
+}
+
+module CGL [system] {
+    header "/usr/include/GL/gl.h"
+    header "/usr/include/GL/glu.h"
+    header "/usr/include/GL/glut.h"
+    link "GL"
+    link "GLU"
+    link "glut"
+    export *
+}
+
