@@ -11,6 +11,7 @@ module CGLFW [system] {
 
 module CGL [system] {
     header "/usr/include/GL/gl.h"
+    header "/usr/include/GL/glext.h"
     header "/usr/include/GL/glu.h"
     header "/usr/include/GL/glut.h"
     link "GL"
